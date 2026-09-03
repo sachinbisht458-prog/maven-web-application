@@ -26,6 +26,13 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://host.docker.internal:8082/repository/maven-release-sachin/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <finalName>maven-web-application</finalName>
 
